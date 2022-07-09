@@ -5,29 +5,33 @@
         <title> Mi primera pagina </title>
     </head>
     <body>
-        <form>
-            <fieldset>
-                <legend>Datos Personales</legend>
-                <label for="">Edad</label>
-                <input type="number" placeholder="Ingresa aca la edad">
-                <br />
-                <label for="">Contraseña</label>
-                <input type="password" placeholder="Ingresa Contraseña">
-                <br />
-                <label for="">Nombre</label>
-                <input type="text" placeholder="Ingresa aca el nombre">
-                <br />
-                <input type="submit" value="Acepta">
-                <textarea></textarea>
-                <button>Aceptar</button>
-
-                <select>
-                    <option value="opcion_1"> Opcion 1</option>
-                    <option value="opcion_2"> Opcion 2</option>
-                    <option value="opcion_3"> Opcion 3</option>
-                </select>
-            </fieldset>
-
-        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Ahorros</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enero</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>500$</td>
+                </tr>
+                <tr>
+                    <td>Marzo</td>
+                    <td>800$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Suma Total:</td>
+                    <td>2300$</td>
+                </tr>
+            </tfoot>
+        </table>
     </body>
 </html>
